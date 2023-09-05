@@ -1,11 +1,11 @@
-form{
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: 100vh;
+.required {
+  color: var(--bs-form-invalid-color);
 }
 
-.App{
-  display: flex;
-  justify-content: center;
+.errors {
+  /* display: none; */
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: var(--bs-form-invalid-color);
 }
